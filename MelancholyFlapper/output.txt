@@ -1,0 +1,132 @@
+See the end of this message for details on invoking 
+just-in-time (JIT) debugging instead of this dialog box.
+
+************** Exception Text **************
+CKAN.FileExistsKraken: Trying to write C:/Program Files (x86)/Steam/steamapps/common/Kerbal Space Program/GameData/BahaSP/License.txt but it already exists.
+   at CKAN.ModuleInstaller.CopyZipEntry(ZipFile zipfile, ZipEntry entry, String fullPath, Boolean makeDirs)
+   at CKAN.ModuleInstaller.InstallModule(CkanModule module, String zip_filename)
+   at CKAN.ModuleInstaller.Install(CkanModule module, String filename)
+   at CKAN.ModuleInstaller.AddRemove(IEnumerable`1 add, IEnumerable`1 remove)
+   at CKAN.ModuleInstaller.Upgrade(IEnumerable`1 modules, NetAsyncDownloader netAsyncDownloader)
+   at CKAN.Main.InstallMods(Object sender, DoWorkEventArgs e)
+   at System.ComponentModel.BackgroundWorker.WorkerThreadStart(Object argument)
+
+
+************** Loaded Assemblies **************
+mscorlib
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18444 built by: FX451RTMGDR
+    CodeBase: file:///C:/Windows/Microsoft.NET/Framework64/v4.0.30319/mscorlib.dll
+----------------------------------------
+ckan
+    Assembly Version: 0.0.0.0
+    Win32 Version: 0.0.0.0
+    CodeBase: file:///C:/Program%20Files%20(x86)/Steam/steamapps/common/Kerbal%20Space%20Program/ckan.exe
+----------------------------------------
+System.Windows.Forms
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.34251 built by: FX452RTMGDR
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll
+----------------------------------------
+System.Drawing
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18408 built by: FX451RTMGREL
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll
+----------------------------------------
+System
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.34238 built by: FX452RTMGDR
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll
+----------------------------------------
+System.Core
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18408 built by: FX451RTMGREL
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll
+----------------------------------------
+System.Configuration
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18408 built by: FX451RTMGREL
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
+----------------------------------------
+System.Xml
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.34234 built by: FX452RTMGDR
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll
+----------------------------------------
+Microsoft.GeneratedCode
+    Assembly Version: 1.0.0.0
+    Win32 Version: 4.0.30319.34234 built by: FX452RTMGDR
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll
+----------------------------------------
+Microsoft.CSharp
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18408
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/Microsoft.CSharp/v4.0_4.0.0.0__b03f5f7f11d50a3a/Microsoft.CSharp.dll
+----------------------------------------
+System.Numerics
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18408 built by: FX451RTMGREL
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll
+----------------------------------------
+System.Dynamic
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18408
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Dynamic/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Dynamic.dll
+----------------------------------------
+Anonymously Hosted DynamicMethods Assembly
+    Assembly Version: 0.0.0.0
+    Win32 Version: 4.0.30319.18444 built by: FX451RTMGDR
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_64/mscorlib/v4.0_4.0.0.0__b77a5c561934e089/mscorlib.dll
+----------------------------------------
+System.Transactions
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18408 built by: FX451RTMGREL
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_64/System.Transactions/v4.0_4.0.0.0__b77a5c561934e089/System.Transactions.dll
+----------------------------------------
+System.ComponentModel.DataAnnotations
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18408
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.ComponentModel.DataAnnotations/v4.0_4.0.0.0__31bf3856ad364e35/System.ComponentModel.DataAnnotations.dll
+----------------------------------------
+System.Runtime.Serialization
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.34234 built by: FX452RTMGDR
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.Serialization/v4.0_4.0.0.0__b77a5c561934e089/System.Runtime.Serialization.dll
+----------------------------------------
+System.Xml.Linq
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18408 built by: FX451RTMGREL
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Xml.Linq/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.Linq.dll
+----------------------------------------
+System.Data
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18408 built by: FX451RTMGREL
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_64/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll
+----------------------------------------
+Accessibility
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18408 built by: FX451RTMGREL
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/Accessibility/v4.0_4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll
+----------------------------------------
+System.EnterpriseServices
+    Assembly Version: 4.0.0.0
+    Win32 Version: 4.0.30319.18408 built by: FX451RTMGREL
+    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_64/System.EnterpriseServices/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.dll
+----------------------------------------
+
+************** JIT Debugging **************
+To enable just-in-time (JIT) debugging, the .config file for this
+application or computer (machine.config) must have the
+jitDebugging value set in the system.windows.forms section.
+The application must also be compiled with debugging
+enabled.
+
+For example:
+
+<configuration>
+    <system.windows.forms jitDebugging="true" />
+</configuration>
+
+When JIT debugging is enabled, any unhandled exception
+will be sent to the JIT debugger registered on the computer
+rather than be handled by this dialog box. 
